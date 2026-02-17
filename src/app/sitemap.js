@@ -239,6 +239,12 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${URL}/blog/diet-for-diabetes-bp-thyroid-patients-guide-ajmer-dr-gauri-mehra`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
