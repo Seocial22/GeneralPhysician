@@ -245,6 +245,13 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+
+    {
+      url: `${URL}/blog/high-bp-diabetes-management-ajmer-dr-manish-sharma`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
