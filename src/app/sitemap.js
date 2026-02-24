@@ -252,6 +252,12 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${URL}/blog/daily-habits-control-high-bp-sugar-levels-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
