@@ -210,7 +210,7 @@ export default async function Blog({ searchParams }) {
                   itemScope
                   itemType="https://schema.org/BlogPosting"
                 >
-                  <div className="relative aspect-square w-full" itemProp="image" itemScope itemType="https://schema.org/ImageObject">
+                  <div className="relative aspect-[3/2] w-full" itemProp="image" itemScope itemType="https://schema.org/ImageObject">
                     <Image 
                       src={blog.image || '/images/placeholder.jpg'} 
                       alt={blog.alt || blog.title}

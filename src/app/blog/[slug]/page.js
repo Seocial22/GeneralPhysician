@@ -17,22 +17,22 @@ export async function generateMetadata({ params }) {
   // We need to await the params object first
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  
+
   const blogs = getBlogs();
   const blog = blogs.find((blog) => blog.slug === slug);
-  
+
   if (!blog) {
     return {
       title: 'Blog Not Found',
     };
   }
-  
-   return {
+
+  return {
     title: `${blog.title}`,
     description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
     keywords: blog.keywords,
     robots: 'index, follow',
-    
+
     openGraph: {
       title: blog.title,
       description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
@@ -50,11 +50,11 @@ export async function generateMetadata({ params }) {
       publishedTime: blog.date,
       tags: blog.tags,
     },
-    
+
     alternates: {
       canonical: blog.cononicalUrl,
     },
-    
+
     twitter: {
       card: 'summary_large_image',
       title: blog.title,
@@ -62,7 +62,7 @@ export async function generateMetadata({ params }) {
       images: [blog.image || '/images/urology-placeholder.jpg'],
       creator: '@gaurnishhealth',
     },
-    
+
     // Add structured data for better SEO
     other: {
       'article:author': blog.author,
@@ -79,7 +79,7 @@ export async function generateMetadata({ params }) {
         "image": `https://gaurnishhealth.in${blog.image}`,
         "author": {
           "@type": "Person",
-          "name": blog.author 
+          "name": blog.author
         },
         "publisher": {
           "@type": "Organization",
@@ -145,13 +145,13 @@ export default async function SingleBlogPage({ params }) {
   // We need to await the params object first
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  
+
   // Get all blogs
   const blogs = getBlogs();
-  
+
   // Find the blog with the matching slug
   const blog = blogs.find((blog) => blog.slug === slug);
-  
+
   // If no blog is found, return a not found message
   if (!blog) {
     return (
@@ -160,7 +160,7 @@ export default async function SingleBlogPage({ params }) {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden p-6">
             <h1 className="text-4xl font-bold bg-[#305424] bg-clip-text text-transparent mb-4">Blog Not Found</h1>
             <p className="text-gray-700 mb-4">Could not find blog with slug: {slug}</p>
-            <Link 
+            <Link
               href="/blog"
               className="inline-block bg-[#016630] text-white px-4 py-2 rounded-lg hover:opacity-90 transition duration-300"
             >
@@ -180,24 +180,24 @@ export default async function SingleBlogPage({ params }) {
   });
 
   return (
-    <article className="min-h-screen bg-gray-50 pt-20">
+    <article className="min-h-screen bg-gray-50 pt-10">
       {/* Hero section with image */}
-      <div className="relative w-full h-80 md:h-120 max-w-6xl mx-auto  ">
-        <Image 
-          src={blog.image || '/images/placeholder.jpg'} 
-          alt={blog.alt || blog.title}
-          fill
-          priority
-          className="object-fit rounded-lg pt-12"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70 rounded-lg"></div>
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">{blog.heading}</h1>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12">
+        <div className="relative  aspect[3/1.5] w-full h-80 md:h-[500px] rounded-xl overflow-hidden shadow-lg">
+          <Image
+            src={blog.image || '/images/placeholder.jpg'}
+            alt={blog.alt || blog.title}
+            fill
+            priority
+            className="object-fit"
+          />
+          {/* <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div> */}
+
         </div>
       </div>
-      
+
       {/* Content section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden p-6 md:p-10">
           {/* Author and date info */}
           <div className="flex items-center mb-8 pb-4 border-b border-gray-200">
@@ -213,7 +213,7 @@ export default async function SingleBlogPage({ params }) {
               </div>
             </div>
           </div>
-          
+
           {/* Tags */}
           {blog.tags && (
             <div className="flex flex-wrap gap-2 mb-6">
@@ -225,12 +225,14 @@ export default async function SingleBlogPage({ params }) {
             </div>
           )}
           
+            <h1 className="text-3xl md:text-5xl font-bold text-[#016630] mb-2">{blog.heading}</h1>
+          
           {/* Using our custom BlogContent component */}
           <BlogContent content={blog.content} />
-          
+
           {/* Back button */}
           <div className="mt-10 pt-6 border-t border-gray-200">
-            <Link 
+            <Link
               href="/blog"
               className="inline-block bg-[#305424] text-white px-6 py-3 rounded-lg hover:opacity-90 transition duration-300"
             >

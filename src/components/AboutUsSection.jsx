@@ -44,7 +44,7 @@ const AboutUsSection = () => {
     <section className="bg-[#FDF1ED] py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
-        <motion.div 
+        <motion.div
           className="text-center mb-20"
           initial="hidden"
           whileInView="visible"
@@ -58,16 +58,16 @@ const AboutUsSection = () => {
             Meet Our Expert Healthcare Team
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-            Our experienced professionals are dedicated to providing personalized care and 
+            Our experienced professionals are dedicated to providing personalized care and
             comprehensive healthcare solutions tailored to your specific needs.
           </p>
         </motion.div>
 
         {/* Doctors with side-by-side layout */}
         <div className="space-y-24">
-          
+
           {/* Dr. Manish Card */}
-          <motion.div 
+          <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -76,16 +76,16 @@ const AboutUsSection = () => {
           >
             <div className="flex flex-col md:flex-row">
               {/* Left side - Doctor Image */}
-              <motion.div 
+              <motion.div
                 variants={fadeInLeft}
                 className="md:w-1/2 h-96 md:h-auto relative overflow-hidden"
               >
                 <Image
-                  src="/images/dr-manish.jpg"
+                  src="/images/dr-manish1.jpg"
                   alt="Dr. Manish Sharma"
                   width={600}
                   height={800}
-                  className="w-full h-full object-cover object-center"
+                  className="w-full  h-full object-cover object-center"
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2d5134]/40 to-transparent md:bg-gradient-to-t"></div>
@@ -94,9 +94,9 @@ const AboutUsSection = () => {
                   <p className="text-[#E7EECD]">M.D. (General Physician)</p>
                 </div>
               </motion.div>
-              
+
               {/* Right side - Doctor Details */}
-              <motion.div 
+              <motion.div
                 variants={fadeInRight}
                 className="md:w-1/2 p-6 md:p-10"
               >
@@ -107,7 +107,7 @@ const AboutUsSection = () => {
                   </h3>
                   <p className="text-[#eb7147] text-xl font-medium">M.D. (General Physician)</p>
                 </div>
-                
+
                 {/* Contact Info */}
                 <div className="flex items-center mb-6">
                   <div className="bg-[#eb7147] p-2 rounded-full mr-4">
@@ -115,7 +115,7 @@ const AboutUsSection = () => {
                   </div>
                   <p className="text-gray-700 text-lg font-medium">Contact: 8690761918</p>
                 </div>
-                
+
                 {/* Specializations */}
                 <div className="mb-8">
                   <h4 className="font-semibold text-[#2d5134] mb-4 bg-[#E7EECD] inline-block px-4 py-2 rounded-lg">
@@ -134,12 +134,12 @@ const AboutUsSection = () => {
                       "Blood Pressure",
                       // "Abdominal Conditions",
                     ].map((specialization, index) => (
-                      <motion.div 
+                      <motion.div
                         key={index}
                         variants={{
                           hidden: { opacity: 0, y: 10 },
-                          visible: { 
-                            opacity: 1, 
+                          visible: {
+                            opacity: 1,
                             y: 0,
                             transition: { delay: 0.1 * index }
                           }
@@ -152,25 +152,25 @@ const AboutUsSection = () => {
                     ))}
                   </div>
                 </div>
-                
+
                 {/* Consultation Info */}
                 <div className="pt-4 border-t border-gray-200">
                   <div className="space-y-4">
 
 
-                  
+
 
                     <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Morning Hours:</span> 10:00 AM - 5:00 PM</p>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
                     </div>
-                    
-                       <div className="flex items-center">
+
+                    <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Evening Hours:</span> 6:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></p>
                     </div>
@@ -178,7 +178,7 @@ const AboutUsSection = () => {
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer</p>
                     </div>
-                   
+
                   </div>
                 </div>
               </motion.div>
@@ -186,7 +186,7 @@ const AboutUsSection = () => {
           </motion.div>
 
           {/* Dr. Gauri Card */}
-          <motion.div 
+          <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -195,12 +195,12 @@ const AboutUsSection = () => {
           >
             <div className="flex flex-col md:flex-row">
               {/* Left side - Doctor Image */}
-              <motion.div 
+              <motion.div
                 variants={fadeInLeft}
                 className="md:w-1/2 h-96 md:h-auto relative overflow-hidden"
               >
                 <Image
-                  src="/images/dr-gauri.jpg"
+                  src="/images/dr-gauri1.jpg"
                   alt="Dr. Gauri Mehra"
                   width={600}
                   height={800}
@@ -212,9 +212,9 @@ const AboutUsSection = () => {
                   <p className="text-[#E7EECD]">Dietician</p>
                 </div>
               </motion.div>
-              
+
               {/* Right side - Doctor Details */}
-              <motion.div 
+              <motion.div
                 variants={fadeInRight}
                 className="md:w-1/2 p-6 md:p-10"
               >
@@ -225,7 +225,7 @@ const AboutUsSection = () => {
                   </h3>
                   <p className="text-[#eb7147] text-xl font-medium">Dietician</p>
                 </div>
-                
+
                 {/* Contact Info */}
                 <div className="flex items-center mb-6">
                   <div className="bg-[#eb7147] p-2 rounded-full mr-4">
@@ -233,7 +233,7 @@ const AboutUsSection = () => {
                   </div>
                   <p className="text-gray-700 text-lg font-medium">Contact: 9461068894</p>
                 </div>
-                
+
                 {/* Specializations */}
                 <div className="mb-8">
                   <h4 className="font-semibold text-[#2d5134] mb-4 bg-[#E7EECD] inline-block px-4 py-2 rounded-lg">
@@ -250,12 +250,12 @@ const AboutUsSection = () => {
                       "Pregnancy/Lactation Diet",
                       "Cardiac Diet"
                     ].map((specialization, index) => (
-                      <motion.div 
+                      <motion.div
                         key={index}
                         variants={{
                           hidden: { opacity: 0, y: 10 },
-                          visible: { 
-                            opacity: 1, 
+                          visible: {
+                            opacity: 1,
                             y: 0,
                             transition: { delay: 0.1 * index }
                           }
@@ -268,7 +268,7 @@ const AboutUsSection = () => {
                     ))}
                   </div>
                 </div>
-                
+
                 {/* Consultation Info */}
                 <div className="pt-4 border-t border-gray-200">
                   <div className="space-y-4">
@@ -276,13 +276,13 @@ const AboutUsSection = () => {
                       <FaClock className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Morning Hours:</span> 10:00 AM - 2:00 PM</p>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
                     </div>
 
-                       <div className="flex items-center">
+                    <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Evening Hours:</span> 6:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></p>
                     </div>
@@ -290,7 +290,7 @@ const AboutUsSection = () => {
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer</p>
                     </div>
-                    
+
                     {/* <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Evening:</span> 5:00 PM - 8:00 PM (Pawan Putra Medical)</p>
@@ -303,7 +303,7 @@ const AboutUsSection = () => {
         </div>
 
         {/* Insurance & Facilities */}
-        <motion.div 
+        <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -313,7 +313,7 @@ const AboutUsSection = () => {
           <h3 className={`${berkshire.className} text-2xl text-[#2d5134] mb-6 text-center`}>
             Accepted Insurance & Facilities
           </h3>
-          <motion.div 
+          <motion.div
             className="flex flex-wrap text-[#2D5134] justify-center gap-4"
             variants={staggerContainer}
           >
@@ -325,12 +325,12 @@ const AboutUsSection = () => {
               "RAILWAY",
               "All Types of TPA"
             ].map((insurance, index) => (
-              <motion.span 
-                key={index} 
+              <motion.span
+                key={index}
                 variants={{
                   hidden: { opacity: 0, scale: 0.8 },
-                  visible: { 
-                    opacity: 1, 
+                  visible: {
+                    opacity: 1,
                     scale: 1,
                     transition: { delay: 0.05 * index }
                   }
@@ -344,7 +344,7 @@ const AboutUsSection = () => {
         </motion.div>
 
         {/* CTA Section */}
-        <motion.div 
+        <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
