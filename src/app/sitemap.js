@@ -258,6 +258,12 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${URL}/blog/best-physician-in-ajmer-general-respiratory-stomach-bp-specialist`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,

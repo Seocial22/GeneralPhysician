@@ -183,7 +183,7 @@ export default async function SingleBlogPage({ params }) {
     <article className="min-h-screen bg-gray-50 pt-10">
       {/* Hero section with image */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12">
-        <div className="relative  aspect[3/1.5] w-full h-80 md:h-[500px] rounded-xl overflow-hidden shadow-lg">
+        <div className="relative  aspect[3/2] w-full h-64 md:h-[500px] lg:h-[600px] rounded-xl overflow-hidden shadow-lg">
           <Image
             src={blog.image || '/images/placeholder.jpg'}
             alt={blog.alt || blog.title}
@@ -191,7 +191,7 @@ export default async function SingleBlogPage({ params }) {
             priority
             className="object-fit"
           />
-          {/* <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div> */}
+       
 
         </div>
       </div>
