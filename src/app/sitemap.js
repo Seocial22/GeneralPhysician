@@ -264,6 +264,12 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.95,
     },
+    {
+      url: `${URL}/blog/how-to-choose-the-best-general-physician-in-ajmer-for-your-health-needs`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
