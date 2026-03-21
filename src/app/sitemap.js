@@ -276,6 +276,12 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.95,
     },
+    {
+      url: `${URL}/blog/healthy-weight-loss-complete-guide-dietitian`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
