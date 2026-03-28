@@ -283,7 +283,7 @@ export default async function sitemap() {
       priority: 0.95,
     },
     {
-      url: `${URL}/blog/why-you-feel-dizzy-suddenly`,
+      url: `${URL}/blog/why-you-feel-dizzy-suddenly-by-dr-manish-sharma`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.95,
