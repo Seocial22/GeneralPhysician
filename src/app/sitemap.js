@@ -282,6 +282,12 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.95,
     },
+    {
+      url: `${URL}/blog/why-you-feel-dizzy-suddenly`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
