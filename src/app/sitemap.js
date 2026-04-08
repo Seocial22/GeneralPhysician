@@ -288,6 +288,13 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.95,
     },
+
+    {
+      url: `${URL}/blog/10-healthy-eating-habits-everyone-should-follow`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
     // Contact & Consultation Pages
     {
       url: `${URL}/contact`,
