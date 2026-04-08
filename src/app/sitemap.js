@@ -303,7 +303,7 @@ export default async function sitemap() {
       priority: 0.9,
     },
     {
-      url: `${URL}/bookconsultation`,
+      url: `${URL}/bookconsultationcd `,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.9,
