@@ -73,6 +73,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <metadata
+        name="google-site-verification"
+        content="-OQ5zLCQgo2BvRiJo3sC9Q359s7UugEpbt4gAui1guw"
+      />
       <body style={{ background: 'white' }}>
         {/* Google Analytics */}
         <Script
