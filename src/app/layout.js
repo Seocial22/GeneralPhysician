@@ -73,16 +73,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <metadata
+      <head>
+      <meta
         name="google-site-verification"
         content="-OQ5zLCQgo2BvRiJo3sC9Q359s7UugEpbt4gAui1guw"
       />
+      </head>
       <body style={{ background: 'white' }}>
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8Z668FLWMZ"
           strategy="afterInteractive"
-        />
+          />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
