@@ -51,16 +51,7 @@ export const metadata = {
       "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma and Dr. Gauri Mehra. Your trusted healthcare partners in Ajmer.",
     images: ["/images/og-image.jpg"],
   },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-    },
-  },
+  
   other: {
     "application-name": "Gaurnish HealthCare",
     author: "Dr Manish Sharma & Dr Gauri Mehra",
@@ -74,6 +65,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        
+        
+        
       <meta
         name="google-site-verification"
         content="-OQ5zLCQgo2BvRiJo3sC9Q359s7UugEpbt4gAui1guw"

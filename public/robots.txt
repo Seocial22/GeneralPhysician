@@ -1,10 +1,4 @@
-# robots.txt for https://gaurnishhealth.in
-
 User-agent: *
 Allow: /
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /admin/
-Disallow: /api/
 
 Sitemap: https://gaurnishhealth.in/sitemap.xml
