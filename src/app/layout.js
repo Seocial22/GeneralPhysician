@@ -5,6 +5,7 @@ import FloatingContact from "@/components/FloatingContact";
 import Script from "next/script";
 
 export const metadata = {
+
   metadataBase: new URL("https://gaurnishhealth.in"),
   title:
     "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
@@ -59,6 +60,11 @@ export const metadata = {
     "theme-color": "#ffffff",
     publisher: "Gaurnish HealthCare",
   },
+  robots: {
+    index: false,
+    follow: false,
+  },
+
 };
 
 export default function RootLayout({ children }) {
