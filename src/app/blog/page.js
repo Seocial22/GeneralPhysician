@@ -7,8 +7,8 @@ import { Suspense } from 'react';
 
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
-  title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dr. Gauri Mehra',
-  description: 'Expert health articles and wellness tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) - Ajmer\'s leading healthcare specialists.',
+  title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dt. Gauri Mehra',
+  description: 'Expert health articles and wellness tips from Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician) - Ajmer\'s leading healthcare specialists.',
   alternates: {
     canonical: 'https://gaurnishhealth.in/blog'
   },
@@ -18,7 +18,7 @@ export const metadata = {
     'wellness tips physician',
     'nutrition advice dietician',
     'Dr. Manish Sharma blog',
-    'Dr. Gauri Mehra articles',
+    'Dt. Gauri Mehra articles',
     'healthcare tips ajmer',
     'chronic disease management blog',
     'weight loss advice doctors',
@@ -28,7 +28,7 @@ export const metadata = {
     'doctor written health content'
   ],
   openGraph: {
-    title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dr. Gauri Mehra',
+    title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dt. Gauri Mehra',
     description: 'Trusted medical advice and wellness tips from Ajmer\'s leading healthcare specialists',
     url: 'https://gaurnishhealth.in/blog',
     siteName: 'GaurNish Health Blog',
@@ -44,7 +44,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dr. Gauri Mehra',
+    title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dt. Gauri Mehra',
     description: 'Expert medical articles and wellness guidance from Ajmer\'s specialists',
     images: ['/images/blog-og-image.jpg'],
   }, robots: {
@@ -182,14 +182,14 @@ export default async function Blog({ searchParams }) {
     <>
       <AboutUsHero
         title="Health & Wellness Blog"
-        description="Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care."
+        description="Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care."
         breadcrumbs={[
           { label: 'Home', path: '/' },
           { label: 'Blog', path: '/blog' },
         ]}
       />
 
-      <h1 className="hidden">Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care.</h1>
+      <h1 className="hidden">Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care.</h1>
       
       <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">

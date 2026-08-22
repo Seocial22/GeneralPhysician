@@ -5,9 +5,9 @@ import ServicesSection from "@/components/ServicesSection";
 export const metadata = {
   metadataBase: new URL("https://gaurnishhealth.in"),
   title:
-    "Best Medical Treatments in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+    "Best Medical Treatments in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
   description:
-    "Comprehensive medical treatments and healthcare services in Ajmer by Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician).",
+    "Comprehensive medical treatments and healthcare services in Ajmer by Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician).",
   alternates: {
     canonical: "https://gaurnishhealth.in/services",
   },
@@ -17,7 +17,7 @@ export const metadata = {
     "general physician treatments",
     "dietician services Ajmer",
     "Dr. Manish Sharma treatments",
-    "Dr. Gauri Mehra diet plans",
+    "Dt. Gauri Mehra diet plans",
     "medical care Ajmer",
     "chronic disease management",
     "weight management programs",
@@ -29,7 +29,7 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Best Medical Treatments in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Best Medical Treatments in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
       "Expert medical treatments and personalized healthcare services in Ajmer by our specialist doctors",
     url: "https://gaurnishhealth.in/services",
@@ -57,7 +57,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best Medical Treatments in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Best Medical Treatments in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
       "Comprehensive healthcare treatments by Ajmer's leading specialists",
     images: ["/images/services-og-image.jpg"],

@@ -161,7 +161,7 @@ const HeroSection = () => {
               variants={item}
               className="text-base font-semibold md:text-lg text-[#2d5134] opacity-90 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed"
             >
-              Experience personalized care with Dr. Manish Sharma, our experienced General Physician, and Dr. Gauri Mehra, our certified Dietician. Together, they provide comprehensive wellness solutions tailored just for you.
+              Experience personalized care with Dr. Manish Sharma, our experienced General Physician, and Dt. Gauri Mehra, our certified Dietician. Together, they provide comprehensive wellness solutions tailored just for you.
             </motion.h2>
               
             {/* Animated CTA button */}

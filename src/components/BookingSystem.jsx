@@ -392,7 +392,7 @@ const BookingSystem = () => {
   
       // Send notification to doctor
       const doctorTemplateParams = {
-        doctor_name: doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dr. Gauri Mehra',
+        doctor_name: doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dt. Gauri Mehra',
         patient_name: fullName,
         patient_email: email,
         patient_phone: phoneNumber,
@@ -509,7 +509,7 @@ const BookingSystem = () => {
                 setSelectedDate('');
               }}
             >
-              <span className="text-lg font-medium">Dr. Gauri Mehra</span>
+              <span className="text-lg font-medium">Dt. Gauri Mehra</span>
               <span className="text-sm mt-1">Dietician</span>
             </button>
           </div>
@@ -647,7 +647,7 @@ const BookingSystem = () => {
             <div className="p-4 bg-white border border-[#2d5134] text-[#5a3921] rounded-md mb-4">
               <p className="font-medium">Your appointment details:</p>
               <p className="mt-1">
-                <span className="font-bold">{doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dr. Gauri Mehra'}</span> -{' '}
+                <span className="font-bold">{doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dt. Gauri Mehra'}</span> -{' '}
                 <span className="font-bold">{consultationType === 'hospital' ? 'Hospital' : 'Evening Clinic'}</span> on{' '}
                 <span className="font-bold">{new Date(selectedDate).toLocaleDateString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})}</span> at{' '}
                 <span className="font-bold">{formatTime(selectedSlot)}</span>

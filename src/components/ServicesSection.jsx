@@ -295,7 +295,7 @@ const ServicesSection = () => {
             variants={titleVariants}
             className={`${berkshire.className} text-2xl md:text-3xl text-[#2d5134] text-center mb-12`}
           >
-            Personalized Nutrition by Dr. Gauri Mehra
+            Personalized Nutrition by Dt. Gauri Mehra
           </motion.h3>
           
           <motion.div 

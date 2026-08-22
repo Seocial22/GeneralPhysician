@@ -424,7 +424,7 @@ const ContactPage = () => {
                   <div className="flex items-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-white overflow-hidden mr-3">
                       <Image
-                        src="/images/dr-manish.jpg"
+                        src="/images/dr-manish1.jpg"
                         alt="Dr. Manish Sharma"
                         width={48}
                         height={48}
@@ -444,7 +444,7 @@ const ContactPage = () => {
                   </div>
                 </motion.div>
                 
-                {/* Dr. Gauri Mehra */}
+                {/* Dt. Gauri Mehra */}
                 <motion.div 
                   variants={itemFadeIn}
                   whileHover={{ y: -5, boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)" }}
@@ -453,15 +453,15 @@ const ContactPage = () => {
                   <div className="flex items-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-white overflow-hidden mr-3">
                       <Image
-                        src="/images/dr-gauri.jpg"
-                        alt="Dr. Gauri Mehra"
+                        src="/images/dr-gauri1.jpg"
+                        alt="Dt. Gauri Mehra"
                         width={48}
                         height={48}
                         className="w-full h-full object-cover"
                       />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-[#2d5134]">Dr. Gauri Mehra</h3>
+                      <h3 className="font-semibold text-[#2d5134]">Dt. Gauri Mehra</h3>
                       <p className="text-sm text-gray-600">Dietician</p>
                     </div>
                   </div>

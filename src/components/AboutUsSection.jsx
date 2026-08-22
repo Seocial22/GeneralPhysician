@@ -201,14 +201,14 @@ const AboutUsSection = () => {
               >
                 <Image
                   src="/images/dr-gauri1.jpg"
-                  alt="Dr. Gauri Mehra"
+                  alt="Dt. Gauri Mehra"
                   width={600}
                   height={800}
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2d5134]/40 to-transparent md:bg-gradient-to-t"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:hidden text-white">
-                  <h3 className={`${berkshire.className} text-2xl`}>Dr. Gauri Mehra</h3>
+                  <h3 className={`${berkshire.className} text-2xl`}>Dt. Gauri Mehra</h3>
                   <p className="text-[#E7EECD]">Dietician</p>
                 </div>
               </motion.div>
@@ -221,7 +221,7 @@ const AboutUsSection = () => {
                 {/* Doctor name and title - visible only on desktop */}
                 <div className="hidden md:block mb-6">
                   <h3 className={`${berkshire.className} text-3xl text-[#2d5134] mb-2`}>
-                    Dr. Gauri Mehra
+                    Dt. Gauri Mehra
                   </h3>
                   <p className="text-[#eb7147] text-xl font-medium">Dietician</p>
                 </div>
@@ -289,6 +289,10 @@ const AboutUsSection = () => {
                     <div className="flex items-start">
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer</p>
+                    </div>
+                    <div className="flex items-start">
+                      <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
+                      <p className="text-gray-700"><span className="font-medium">Location:</span> Mayur Children Hospital, B-15, Aravali Vihar, Near Lions Club, Vaishali Nagar, Ajmer</p>
                     </div>
 
                     {/* <div className="flex items-center">

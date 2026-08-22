@@ -8,9 +8,9 @@ export const metadata = {
 
   metadataBase: new URL("https://gaurnishhealth.in"),
   title:
-    "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+    "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
   description:
-    "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma (MD) and Dr. Gauri Mehra. Comprehensive healthcare services for complete wellness.",
+    "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma (MD) and Dt. Gauri Mehra. Comprehensive healthcare services for complete wellness.",
   keywords: [
     "best general physician in ajmer",
     "top dietician in ajmer",
@@ -29,9 +29,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
-      "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma (MD) and Dr. Gauri Mehra. Premier healthcare services in Ajmer.",
+      "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma (MD) and Dt. Gauri Mehra. Premier healthcare services in Ajmer.",
     url: "https://gaurnishhealth.in/",
     siteName: "GaurNish Health",
     images: [
@@ -47,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
-      "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma and Dr. Gauri Mehra. Your trusted healthcare partners in Ajmer.",
+      "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma and Dt. Gauri Mehra. Your trusted healthcare partners in Ajmer.",
     images: ["/images/og-image.jpg"],
   },
   

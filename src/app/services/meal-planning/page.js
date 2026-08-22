@@ -12,15 +12,15 @@
 
     export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
-  title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dr. Gauri Mehra',
-  description: 'Get personalized meal plans from Ajmer\'s top dietician Dr. Gauri Mehra. Custom weekly/monthly plans for weight loss, diabetes, PCOS & family nutrition with local ingredients.',
+  title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dt. Gauri Mehra',
+  description: 'Get personalized meal plans from Ajmer\'s top dietician Dt. Gauri Mehra. Custom weekly/monthly plans for weight loss, diabetes, PCOS & family nutrition with local ingredients.',
   alternates: {
     canonical: 'https://gaurnishhealth.in/services/meal-planning'
   },
   keywords: [
     'best meal planning Ajmer',
     'dietician in Ajmer',
-    'Dr. Gauri Mehra meal plans',
+    'Dt. Gauri Mehra meal plans',
     'weight loss diet plan',
     'diabetes meal plan Ajmer',
     'PCOS diet specialist',
@@ -37,8 +37,8 @@
     'weight management dietitian'
   ],
   openGraph: {
-    title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dr. Gauri Mehra',
-    description: 'Personalized meal plans by Ajmer\'s top dietician Dr. Gauri Mehra for weight loss, diabetes, PCOS & family nutrition using local ingredients.',
+    title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dt. Gauri Mehra',
+    description: 'Personalized meal plans by Ajmer\'s top dietician Dt. Gauri Mehra for weight loss, diabetes, PCOS & family nutrition using local ingredients.',
     url: 'https://gaurnishhealth.in/services/meal-planning',
     siteName: 'GaurNish Health',
     images: [
@@ -53,8 +53,8 @@
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dr. Gauri Mehra',
-    description: 'Personalized meal plans by Ajmer\'s top dietician Dr. Gauri Mehra for weight loss, diabetes, PCOS & family nutrition using local ingredients.',
+    title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dt. Gauri Mehra',
+    description: 'Personalized meal plans by Ajmer\'s top dietician Dt. Gauri Mehra for weight loss, diabetes, PCOS & family nutrition using local ingredients.',
     images: ['/images/meal-planning-og-image.jpg'],
   },
 };
@@ -191,7 +191,7 @@
                     Why Choose Us for Meal Planning in Ajmer
                 </h2>
                 <p className="text-gray-700 mb-4">
-                    Dr. Gauri Mehra is known as one of the best meal planning experts in Ajmer with deep understanding of both nutrition and local food habits. Unlike general meal plans found online, our plans consider your specific health conditions, medications, and family needs.
+                    Dt. Gauri Mehra is known as one of the best meal planning experts in Ajmer with deep understanding of both nutrition and local food habits. Unlike general meal plans found online, our plans consider your specific health conditions, medications, and family needs.
                 </p>
                 <p className="text-gray-700 mb-4">
                     Our clinic creates meal plans that work in real life, not just on paper. We understand the challenges of cooking for a family, eating out with friends, and celebrating festivals while managing health conditions. Our practical approach makes healthy eating doable for busy people in Ajmer.
@@ -242,14 +242,14 @@
       <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-[#f5f9f0] shadow-md">
         <Image 
           src="/images/dr-gauri.jpg" 
-          alt="Dr. Gauri Mehra - Best Meal Planning Doctor in Ajmer" 
+          alt="Dt. Gauri Mehra - Best Meal Planning Doctor in Ajmer" 
           width={128} 
           height={128}
           className="w-full h-full object-cover" 
         />
       </div>
      
-      <h4 className="text-xl font-semibold text-[#2d5134]">Dr. Gauri Mehra</h4>
+      <h4 className="text-xl font-semibold text-[#2d5134]">Dt. Gauri Mehra</h4>
       <p className="text-gray-600">Nutrition & Meal Planning Expert</p>
       <div className="flex items-center mt-2 text-yellow-500">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

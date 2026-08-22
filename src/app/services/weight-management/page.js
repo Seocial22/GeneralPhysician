@@ -13,15 +13,15 @@ const berkshire = Berkshire_Swash({
 
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
-  title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dr. Gauri Mehra',
-  description: 'Medical weight management programs by Ajmer\'s top physician Dr. Gauri Mehra. Personalized sustainable weight loss plans for diabetes, PCOS & metabolic health with 15+ years expertise.',
+  title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dt. Gauri Mehra',
+  description: 'Medical weight management programs by Ajmer\'s top physician Dt. Gauri Mehra. Personalized sustainable weight loss plans for diabetes, PCOS & metabolic health with 15+ years expertise.',
   alternates: {
     canonical: 'https://gaurnishhealth.in/services/weight-management'
   },
   keywords: [
     'weight management Ajmer',
     'medical weight loss program',
-    'Dr. Gauri Mehra weight loss',
+    'Dt. Gauri Mehra weight loss',
     'sustainable weight loss Ajmer',
     'diabetes weight management',
     'PCOS weight loss specialist',
@@ -38,8 +38,8 @@ export const metadata = {
     'Ajmer bariatric physician'
   ],
   openGraph: {
-    title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dr. Gauri Mehra',
-    description: 'Medical weight management programs by Ajmer\'s top physician Dr. Gauri Mehra for diabetes, PCOS & metabolic health with sustainable results.',
+    title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dt. Gauri Mehra',
+    description: 'Medical weight management programs by Ajmer\'s top physician Dt. Gauri Mehra for diabetes, PCOS & metabolic health with sustainable results.',
     url: 'https://gaurnishhealth.in/services/weight-management',
     siteName: 'GaurNish Health',
     images: [
@@ -54,8 +54,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dr. Gauri Mehra',
-    description: 'Medical weight loss programs by Ajmer\'s top physician Dr. Gauri Mehra for diabetes, PCOS & metabolic health.',
+    title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dt. Gauri Mehra',
+    description: 'Medical weight loss programs by Ajmer\'s top physician Dt. Gauri Mehra for diabetes, PCOS & metabolic health.',
     images: ['/images/weight-management-og-image.jpg'],
   },
 };
@@ -196,7 +196,7 @@ export default function WeightManagement() {
                 Why Choose Us for Weight Management in Ajmer
               </h2>
               <p className="text-gray-700 mb-4">
-                Dr. Gauri Mehra is recognized as one of Ajmer&apos;s leading weight management specialists, with extensive training in both medical nutrition therapy and behavioral change strategies. Our clinic takes a comprehensive approach that addresses all factors influencing weight - physical, psychological, and environmental.
+                Dt. Gauri Mehra is recognized as one of Ajmer&apos;s leading weight management specialists, with extensive training in both medical nutrition therapy and behavioral change strategies. Our clinic takes a comprehensive approach that addresses all factors influencing weight - physical, psychological, and environmental.
               </p>
               <p className="text-gray-700 mb-4">
                 What sets us apart is our focus on sustainable results. We don&apos;t believe in extreme diets or unrealistic exercise regimens. Instead, we help you make gradual changes that become permanent parts of your lifestyle. Our team provides continuous support and accountability to keep you motivated throughout your journey.
@@ -246,14 +246,14 @@ export default function WeightManagement() {
                 <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-[#f5f9f0] shadow-md">
                   <Image 
                     src="/images/dr-gauri.jpg" 
-                    alt="Dr. Gauri Mehra - Best Weight Management Doctor in Ajmer" 
+                    alt="Dt. Gauri Mehra - Best Weight Management Doctor in Ajmer" 
                     width={128} 
                     height={128}
                     className="w-full h-full object-cover" 
                   />
                 </div>
                 
-                <h4 className="text-xl font-semibold text-[#2d5134]">Dr. Gauri Mehra</h4>
+                <h4 className="text-xl font-semibold text-[#2d5134]">Dt. Gauri Mehra</h4>
                 <p className="text-gray-600">Weight Management Specialist</p>
                 <div className="flex items-center mt-2 text-yellow-500">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

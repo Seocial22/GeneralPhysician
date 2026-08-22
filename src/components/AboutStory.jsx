@@ -168,7 +168,7 @@ const AboutStory = () => {
                   />
                 </div>
                 <p className="text-gray-700 ml-5 text-lg">
-                  Dr. Manish Sharma and Dr. Gauri Mehra established this practice with the belief that true wellness comes from addressing both medical conditions and nutritional needs.
+                  Dr. Manish Sharma and Dt. Gauri Mehra established this practice with the belief that true wellness comes from addressing both medical conditions and nutritional needs.
                 </p>
               </motion.div>
              

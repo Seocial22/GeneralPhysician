@@ -8,7 +8,7 @@ import AppointmentSection from "@/components/AppointmentSection";
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
   title: 'About the Best General Physician and Dietician in Ajmer',
-  description: 'Learn about Ajmer\'s top healthcare specialists - Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician). Our story, values and medical approach.',
+  description: 'Learn about Ajmer\'s top healthcare specialists - Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician). Our story, values and medical approach.',
   keywords: [
     'about best doctors in ajmer',
     'about dr manish sharma physician',
@@ -27,8 +27,8 @@ export const metadata = {
     canonical: 'https://gaurnishhealth.in/about'
   },
   openGraph: {
-    title: 'About the Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra',
-    description: 'Learn about Ajmer\'s top healthcare specialists - Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician). Our story, values and medical approach.',
+    title: 'About the Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra',
+    description: 'Learn about Ajmer\'s top healthcare specialists - Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician). Our story, values and medical approach.',
     url: 'https://gaurnishhealth.in/about',
     siteName: 'GaurNish Health',
     images: [
@@ -43,8 +43,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About the Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra',
-    description: 'Discover the story behind Ajmer\'s premier healthcare providers - Dr. Manish Sharma and Dr. Gauri Mehra',
+    title: 'About the Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra',
+    description: 'Discover the story behind Ajmer\'s premier healthcare providers - Dr. Manish Sharma and Dt. Gauri Mehra',
     images: ['/images/about-og-image.jpg'],
   }, robots: {
     index: true,

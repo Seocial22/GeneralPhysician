@@ -10,7 +10,7 @@ export const metadata = {
   metadataBase: new URL("https://gaurnishhealth.in"),
   title: "Best General Physician - Dr. Manish Sharma",
   description:
-    "Dr. Manish Sharma (MD) & Dr. Gauri Mehra - Top General Physician & Dietician in Ajmer. Comprehensive healthcare & nutrition services.",
+    "Dr. Manish Sharma (MD) & Dt. Gauri Mehra - Top General Physician & Dietician in Ajmer. Comprehensive healthcare & nutrition services.",
   alternates: {
     canonical: "https://gaurnishhealth.in/",
   },
@@ -18,7 +18,7 @@ export const metadata = {
     "best general physician in Ajmer",
     "top dietician in Ajmer",
     "Dr. Manish Sharma Ajmer",
-    "Dr. Gauri Mehra Dietician",
+    "Dt. Gauri Mehra Dietician",
     "best doctors in Ajmer",
     "general physician near me",
     "nutritionist in Ajmer",
@@ -32,9 +32,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
-      "Dr. Manish Sharma (MD) and Dr. Gauri Mehra are Ajmer's top healthcare specialists offering complete medical and nutritional care",
+      "Dr. Manish Sharma (MD) and Dt. Gauri Mehra are Ajmer's top healthcare specialists offering complete medical and nutritional care",
     url: "https://gaurnishhealth.in/",
     siteName: "GaurNish Health",
     images: [
@@ -50,9 +50,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
-      "Ajmer's top healthcare specialists - Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician)",
+      "Ajmer's top healthcare specialists - Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician)",
     images: ["/images/og-image.jpg"],
   },
    robots: {
@@ -113,7 +113,7 @@ const structuredData = {
         },
         {
           "@type": "ContactPoint",
-          contactType: "Dr. Gauri Mehra",
+          contactType: "Dt. Gauri Mehra",
           telephone: "+91-9461068894",
         },
       ],
@@ -208,7 +208,7 @@ const structuredData = {
     {
       "@type": "Dietitian",
       "@id": "https://gaurnishhealth.in/#doctor2",
-      name: "Dr. Gauri Mehra",
+      name: "Dt. Gauri Mehra",
       jobTitle: "Dietician",
       description:
         "Expert Dietician providing Weight Management, Anti-Diabetic Diet, Child Nutrition, Keto Diet, and specialized nutrition care",
@@ -297,7 +297,7 @@ const structuredData = {
       url: "https://gaurnishhealth.in/",
       name: "GaurNish Health",
       description:
-        "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma & Dr. Gauri Mehra providing comprehensive healthcare services",
+        "Best General Physician and Dietician in Ajmer - Dr. Manish Sharma & Dt. Gauri Mehra providing comprehensive healthcare services",
       publisher: {
         "@id": "https://gaurnishhealth.in/#organization",
       },
@@ -325,7 +325,7 @@ const structuredData = {
         "@id": "https://gaurnishhealth.in/#organization",
       },
       description:
-        "Dr. Manish Sharma (MD) & Dr. Gauri Mehra - Top General Physician & Dietician in Ajmer. Comprehensive healthcare & nutrition services.",
+        "Dr. Manish Sharma (MD) & Dt. Gauri Mehra - Top General Physician & Dietician in Ajmer. Comprehensive healthcare & nutrition services.",
     },
     {
       "@type": "LocalBusiness",

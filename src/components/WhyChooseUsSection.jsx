@@ -182,7 +182,7 @@ const WhyChooseUsSection = () => {
             </div>
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Complete Health Care</h3>
             <p className="text-[#2d5134] opacity-80">
-              Get both nutrition and medical care in one place. Dr. Gauri helps with your diet while Dr. Manish handles your medical needs.
+              Get both nutrition and medical care in one place. Dt. Gauri helps with your diet while Dr. Manish handles your medical needs.
             </p>
           </motion.div>
 
@@ -200,7 +200,7 @@ const WhyChooseUsSection = () => {
             </div>
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Expert Team</h3>
             <p className="text-[#2d5134] opacity-80">
-              Our doctors are experts in their fields. Dr. Gauri is a certified dietician and Dr. Manish is an experienced physician.
+              Our doctors are experts in their fields. Dt. Gauri is a certified dietician and Dr. Manish is an experienced physician.
             </p>
           </motion.div>
 

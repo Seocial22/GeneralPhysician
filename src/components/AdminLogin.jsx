@@ -219,7 +219,7 @@
         date: formatDate(booking.date),
         time: formatTime(booking.timeSlot),
         status: "accepted",
-        doctor_name: booking.doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dr. Gauri Mehra',
+        doctor_name: booking.doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dt. Gauri Mehra',
         doctor_speciality: booking.doctorType === 'dr_manish' ? 'General Physician' : 'Dietician',
         doctor_credentials: booking.doctorType === 'dr_manish' ? 'M.D. (General Physician)' : 'Dietician',
         doctor_initials: booking.doctorType === 'dr_manish' ? 'MS' : 'GM',
@@ -262,7 +262,7 @@
         date: formatDate(booking.date),
         time: formatTime(booking.timeSlot),
         status: "declined",
-        doctor_name: booking.doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dr. Gauri Mehra',
+        doctor_name: booking.doctorType === 'dr_manish' ? 'Dr. Manish Sharma' : 'Dt. Gauri Mehra',
         doctor_speciality: booking.doctorType === 'dr_manish' ? 'General Physician' : 'Dietician',
         doctor_credentials: booking.doctorType === 'dr_manish' ? 'M.D. (General Physician)' : 'Dietician',
         doctor_initials: booking.doctorType === 'dr_manish' ? 'MS' : 'GM',
@@ -439,7 +439,7 @@
           <div className="flex justify-between items-center mb-8 bg-white p-6 rounded-xl shadow-md">
             <div>
               <h1 className="text-3xl font-bold text-green-800">Admin Dashboard</h1>
-              <p className="text-gray-600 mt-1">Manage Dr. Manish Sharma & Dr. Gauri Mehra's Appointments</p>
+              <p className="text-gray-600 mt-1">Manage Dr. Manish Sharma & Dt. Gauri Mehra's Appointments</p>
             </div>
             <button
               onClick={handleLogout}
@@ -476,7 +476,7 @@
                 >
                   <option value="all">All Doctors</option>
                   <option value="dr_manish">Dr. Manish Sharma</option>
-                  <option value="dr_gauri">Dr. Gauri Mehra</option>
+                  <option value="dr_gauri">Dt. Gauri Mehra</option>
                 </select>
               </div>
               <div>

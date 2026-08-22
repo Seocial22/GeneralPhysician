@@ -3,16 +3,16 @@ import ContactPage from "@/components/ContactPage";
 
 export const metadata = {
   metadataBase: new URL("https://gaurnishhealth.in"),
-  title: "Contact Best Doctors in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+  title: "Contact Best Doctors in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
   description:
-    "Book appointments with Ajmer's best healthcare specialists - Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician). Reach us for consultations and health queries.",
+    "Book appointments with Ajmer's best healthcare specialists - Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician). Reach us for consultations and health queries.",
   alternates: {
     canonical: "https://gaurnishhealth.in/contact",
   },
   keywords: [
     "contact best doctors in Ajmer",
     "Dr. Manish Sharma appointment",
-    "Dr. Gauri Mehra consultation",
+    "Dt. Gauri Mehra consultation",
     "general physician contact Ajmer",
     "dietician clinic address",
     "healthcare contact number",
@@ -26,7 +26,7 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Contact Best Doctors in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Contact Best Doctors in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
       "Reach Ajmer's top healthcare specialists for appointments and health consultations",
     url: "https://gaurnishhealth.in/contact",
@@ -44,7 +44,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Contact Best Doctors in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra",
+      "Contact Best Doctors in Ajmer | Dr. Manish Sharma & Dt. Gauri Mehra",
     description:
       "Get in touch with Ajmer's leading healthcare specialists for your medical needs",
     images: ["/images/contact-og-image.jpg"],
@@ -73,7 +73,7 @@ export default function Contact() {
       <h1 className="hidden">Best Doctor in Ajmer</h1>
       <AboutUsHero
         title="Contact Us"
-        description="Get in touch with Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) for expert healthcare and personalized nutrition counselling. We are here to support your wellness journey."
+        description="Get in touch with Dr. Manish Sharma (General Physician) and Dt. Gauri Mehra (Dietician) for expert healthcare and personalized nutrition counselling. We are here to support your wellness journey."
         breadcrumbs={[
           { label: "Home", path: "/" },
           { label: "Contact Us", path: "/contact" },

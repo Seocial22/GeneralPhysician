@@ -14,15 +14,15 @@ const berkshire = Berkshire_Swash({
 
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
-  title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dr. Gauri Mehra',
-  description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dr. Gauri Mehra. Medical nutrition therapy for diabetes, PCOS, weight management & chronic diseases with 15+ years expertise.',
+  title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dt. Gauri Mehra',
+  description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dt. Gauri Mehra. Medical nutrition therapy for diabetes, PCOS, weight management & chronic diseases with 15+ years expertise.',
   alternates: {
     canonical: 'https://gaurnishhealth.in/services/nutrition-counseling'
   },
   keywords: [
     'nutrition counseling Ajmer',
     'medical nutrition therapy',
-    'Dr. Gauri Mehra dietician',
+    'Dt. Gauri Mehra dietician',
     'diabetes diet plan Ajmer',
     'PCOS nutrition specialist',
     'weight management counseling',
@@ -39,8 +39,8 @@ export const metadata = {
     'nutrition for chronic illnesses'
   ],
   openGraph: {
-    title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dr. Gauri Mehra',
-    description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dr. Gauri Mehra for diabetes, PCOS, weight management & chronic diseases with 15+ years expertise.',
+    title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dt. Gauri Mehra',
+    description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dt. Gauri Mehra for diabetes, PCOS, weight management & chronic diseases with 15+ years expertise.',
     url: 'https://gaurnishhealth.in/services/nutrition-counseling',
     siteName: 'GaurNish Health',
     images: [
@@ -55,8 +55,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dr. Gauri Mehra',
-    description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dr. Gauri Mehra for diabetes, PCOS, weight management & chronic diseases.',
+    title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dt. Gauri Mehra',
+    description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dt. Gauri Mehra for diabetes, PCOS, weight management & chronic diseases.',
     images: ['/images/nutrition-counseling-og-image.jpg'],
   },
 };
@@ -213,7 +213,7 @@ export default function NutritionCounseling() {
                 Why Choose Us for Nutrition Counseling in Ajmer
               </h2>
               <p className="text-gray-700 mb-4">
-                Dr. Gauri Mehra is recognized as one of the best nutrition specialists in Ajmer with over 15 years of experience. Unlike general dieticians, she understands how food affects medical conditions and creates plans that help both your health and weight goals.
+                Dt. Gauri Mehra is recognized as one of the best nutrition specialists in Ajmer with over 15 years of experience. Unlike general dieticians, she understands how food affects medical conditions and creates plans that help both your health and weight goals.
               </p>
               <p className="text-gray-700 mb-4">
                 Our clinic combines medical knowledge with practical food advice. We understand local Ajmer food habits and create plans that work with your family&apos;s cooking style and schedule. Our simple approach makes it easy to follow healthy eating without feeling deprived or confused.
@@ -263,14 +263,14 @@ export default function NutritionCounseling() {
                 <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-[#f5f9f0] shadow-md">
                   <Image 
                     src="/images/dr-gauri.jpg" 
-                    alt="Dr. Gauri Mehra - Best Weight Management Doctor in Ajmer" 
+                    alt="Dt. Gauri Mehra - Best Weight Management Doctor in Ajmer" 
                     width={128} 
                     height={128}
                     className="w-full h-full object-cover" 
                   />
                 </div>
                 
-                <h4 className="text-xl font-semibold text-[#2d5134]">Dr. Gauri Mehra</h4>
+                <h4 className="text-xl font-semibold text-[#2d5134]">Dt. Gauri Mehra</h4>
                 <p className="text-gray-600">Weight Management Specialist</p>
                 <div className="flex items-center mt-2 text-yellow-500">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
