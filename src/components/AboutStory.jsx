@@ -4,12 +4,13 @@ import { FaHandHoldingHeart, FaUserMd, FaCalendarAlt } from 'react-icons/fa';
 import { Berkshire_Swash } from 'next/font/google';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useEffect } from 'react';
 
 const berkshire = Berkshire_Swash({
   subsets: ['latin'],
   weight: '400',
+  display: 'swap',
 });
+import { useEffect } from 'react';
 
 const AboutStory = () => {
   const controls = useAnimation();

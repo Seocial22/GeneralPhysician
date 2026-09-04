@@ -4,15 +4,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Berkshire_Swash } from 'next/font/google';
 import { FaClock, FaHospital, FaCheck } from 'react-icons/fa';
-import { FaLocationDot } from "react-icons/fa6";
-import { BsArrowRight } from 'react-icons/bs';
-import { BiSolidPhoneCall } from "react-icons/bi";
-import { motion } from 'framer-motion';
 
 const berkshire = Berkshire_Swash({
   subsets: ['latin'],
   weight: '400',
+  display: 'swap',
 });
+import { FaLocationDot } from "react-icons/fa6";
+import { BsArrowRight } from 'react-icons/bs';
+import { BiSolidPhoneCall } from "react-icons/bi";
+import { motion } from 'framer-motion';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -57,7 +58,7 @@ const AboutUsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[#2d5134] mb-6">
             Meet Our Expert Healthcare Team
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto text-lg">
+          <p className="text-gray-700 max-w-3xl mx-auto text-lg">
             Our experienced professionals are dedicated to providing personalized care and
             comprehensive healthcare solutions tailored to your specific needs.
           </p>
@@ -86,12 +87,11 @@ const AboutUsSection = () => {
                   width={600}
                   height={800}
                   className="w-full  h-full object-cover object-center"
-                  priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2d5134]/40 to-transparent md:bg-gradient-to-t"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:hidden text-white">
                   <h3 className={`${berkshire.className} text-2xl`}>Dr. Manish Sharma</h3>
-                  <p className="text-[#E7EECD]">M.D. (General Physician)</p>
+                  <p className="text-white font-medium drop-shadow-sm">M.D. (General Physician)</p>
                 </div>
               </motion.div>
 
@@ -118,7 +118,7 @@ const AboutUsSection = () => {
 
                 {/* Specializations */}
                 <div className="mb-8">
-                  <h4 className="font-semibold text-[#2d5134] mb-4 bg-[#E7EECD] inline-block px-4 py-2 rounded-lg">
+                  <h4 className="font-semibold text-[#1a3821] mb-4 bg-[#E7EECD] inline-block px-4 py-2 rounded-lg">
                     Specializations
                   </h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
@@ -209,7 +209,7 @@ const AboutUsSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2d5134]/40 to-transparent md:bg-gradient-to-t"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:hidden text-white">
                   <h3 className={`${berkshire.className} text-2xl`}>Dt. Gauri Mehra</h3>
-                  <p className="text-[#E7EECD]">Dietician</p>
+                  <p className="text-white font-medium drop-shadow-sm">Dietician</p>
                 </div>
               </motion.div>
 
@@ -236,7 +236,7 @@ const AboutUsSection = () => {
 
                 {/* Specializations */}
                 <div className="mb-8">
-                  <h4 className="font-semibold text-[#2d5134] mb-4 bg-[#E7EECD] inline-block px-4 py-2 rounded-lg">
+                  <h4 className="font-semibold text-[#1a3821] mb-4 bg-[#E7EECD] inline-block px-4 py-2 rounded-lg">
                     Specializations
                   </h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
@@ -318,7 +318,7 @@ const AboutUsSection = () => {
             Accepted Insurance & Facilities
           </h3>
           <motion.div
-            className="flex flex-wrap text-[#2D5134] justify-center gap-4"
+            className="flex flex-wrap text-[#1a3821] justify-center gap-4"
             variants={staggerContainer}
           >
             {[
@@ -339,7 +339,7 @@ const AboutUsSection = () => {
                     transition: { delay: 0.05 * index }
                   }
                 }}
-                className="bg-[#E7EECD] px-4 py-2 rounded text-lg hover:bg-[#d9e7b1] transition-colors duration-300"
+                className="bg-[#E7EECD] text-[#1a3821] font-medium px-4 py-2 rounded text-lg hover:bg-[#d9e7b1] transition-colors duration-300"
               >
                 {insurance}
               </motion.span>

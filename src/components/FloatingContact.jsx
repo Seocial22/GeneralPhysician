@@ -53,7 +53,7 @@ const FloatingContact = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
-                    <h4 className="font-bold text-gray-800">New Message</h4>
+                    <p className="font-bold text-gray-800">New Message</p>
                     <span className="text-xs text-gray-500">just now</span>
                   </div>
                   <p className="text-sm text-gray-600 mt-1">Have questions about our services?</p>

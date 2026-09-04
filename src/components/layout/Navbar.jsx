@@ -74,7 +74,7 @@ const Navbar = () => {
                 src="/images/logo.png" 
                 alt="Gaurnish HealthCare Logo" 
                 width={60} 
-                height={60} 
+                height={70} 
                 className="h-[70px] w-auto" 
                 priority
               />
@@ -139,7 +139,8 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-[#2d5134]"
-              aria-expanded="false"
+              aria-expanded={isMenuOpen}
+              aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
             >
               <span className="sr-only">Open main menu</span>
               {isMenuOpen ? (

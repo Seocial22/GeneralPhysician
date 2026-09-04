@@ -61,8 +61,12 @@ export const metadata = {
     publisher: "Gaurnish HealthCare",
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 
 };
@@ -71,9 +75,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        
-        
-        
       <meta
         name="google-site-verification"
         content="-OQ5zLCQgo2BvRiJo3sC9Q359s7UugEpbt4gAui1guw"
@@ -83,9 +84,9 @@ export default function RootLayout({ children }) {
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8Z668FLWMZ"
-          strategy="afterInteractive"
-          />
-        <Script id="google-analytics" strategy="afterInteractive">
+          strategy="lazyOnload"
+        />
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

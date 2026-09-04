@@ -1,7 +1,7 @@
 import AboutUsSection from "@/components/AboutUsSection";
 import AppointmentSection from "@/components/AppointmentSection";
 import HeroSection from "@/components/HeroSection";
-import NewYearPopup from "@/components/NewYearPopup";
+// import NewYearPopup from "@/components/NewYearPopup";
 import OurMission from "@/components/OurMission";
 import ServicesSection from "@/components/ServicesSection";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";

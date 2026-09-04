@@ -1,14 +1,9 @@
 "use client";
 import React from 'react';
-import { Berkshire_Swash } from 'next/font/google';
+import { berkshire } from '../lib/fonts';
 import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
-const berkshire = Berkshire_Swash({
-  subsets: ['latin'],
-  weight: '400',
-});
 
 // Animation variants
 const containerVariants = {
@@ -116,12 +111,11 @@ export default function OurMission() {
           >
             <div className="relative w-full aspect-[4/3] max-w-lg mx-auto">
               <Image 
-                src="/images/our-mission.jpg" 
-                alt="Health and wellness" 
+                src="/images/our-mission.webp" 
+                alt="Health and wellness at Gaurnish Health" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="rounded-xl shadow-xl object-cover"
-                priority
               />
             </div>
           </motion.div>

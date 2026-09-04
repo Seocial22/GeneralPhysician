@@ -7,7 +7,8 @@ import { motion } from 'framer-motion';
 
 const berkshire = Berkshire_Swash({
   subsets: ['latin'],
-  weight: '400', // Only 400 is available for this font
+  weight: '400',
+  display: 'swap',
 });
 
 const AboutUsHero = ({ 

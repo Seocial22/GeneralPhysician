@@ -9,6 +9,7 @@ import { useInView } from 'react-intersection-observer';
 const berkshire = Berkshire_Swash({
   subsets: ['latin'],
   weight: '400',
+  display: 'swap',
 });
 
 // Animation variants

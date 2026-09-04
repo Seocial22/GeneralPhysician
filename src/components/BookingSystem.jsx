@@ -9,6 +9,7 @@ import emailjs from 'emailjs-com';
 const berkshire = Berkshire_Swash({
   subsets: ['latin'],
   weight: '400',
+  display: 'swap',
 });
 
 const BookingSystem = () => {

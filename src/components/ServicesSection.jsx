@@ -8,6 +8,7 @@ import { useInView } from 'react-intersection-observer';
 const berkshire = Berkshire_Swash({
   subsets: ['latin'],
   weight: '400',
+  display: 'swap',
 });
 
 const ServicesSection = () => {
@@ -145,12 +146,12 @@ const ServicesSection = () => {
           animate={drManishInView ? "visible" : "hidden"}
           className='mb-24'
         >
-          <motion.h1
+          <motion.h3
             variants={titleVariants}
             className={`${berkshire.className} text-2xl md:text-3xl text-[#2d5134] text-center mb-12`}
           >
             Expert Diagnosis & Treatment – Dr. Manish Sharma
-          </motion.h1>
+          </motion.h3>
           
           <motion.div 
             variants={containerVariants}
@@ -185,7 +186,7 @@ const ServicesSection = () => {
               <motion.p className="text-gray-600 mb-4">
                 Comprehensive health check-ups and preventive measures for abdominal conditions and seasonal diseases including typhoid and dengue.
               </motion.p>
-              <Link href="/services/preventive-care">
+              <Link href="/services/preventive-care" aria-label="Learn more about Preventive Care services by Dr. Manish Sharma">
                 <motion.span
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]"
@@ -227,7 +228,7 @@ const ServicesSection = () => {
               <motion.p className="text-gray-600 mb-4">
                 Specialized care for diabetes, blood pressure, cardiac conditions, thyroid issues, respiratory issues, abdominal conditions and other chronic health concerns.
               </motion.p>
-              <Link href="/services/chronic-disease">
+              <Link href="/services/chronic-disease" aria-label="View details about Chronic Disease Management by Dr. Manish Sharma">
                 <motion.span
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]"
@@ -269,7 +270,7 @@ const ServicesSection = () => {
               <motion.p className="text-gray-600 mb-4">
                 Expert care for diabetes, respiratory problems, blood pressure, mental health concerns, cardiac problems and abdominal conditions.
               </motion.p>
-              <Link href="/services/specialized-treatment">
+              <Link href="/services/specialized-treatment" aria-label="Learn more about Specialized Treatment by Dr. Manish Sharma">
                 <motion.span
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]"
@@ -331,7 +332,7 @@ const ServicesSection = () => {
               <motion.p className="text-gray-600 mb-4">
                 Personalized nutrition related to medical issue counseling based on your lifestyle, dietary habits, health goals, and medical conditions.
               </motion.p>
-              <Link href="/services/nutrition-counseling">
+              <Link href="/services/nutrition-counseling" aria-label="Learn more about Nutrition Counseling by Dt. Gauri Mehra">
                 <motion.span
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]"
@@ -373,7 +374,7 @@ const ServicesSection = () => {
               <motion.p className="text-gray-600 mb-4">
                 Weekly or monthly meal plans with recipes and shopping lists to fit with the health goals you want to achieve.
               </motion.p>
-              <Link href="/services/meal-planning">
+              <Link href="/services/meal-planning" aria-label="View details about Personalized Meal Planning by Dt. Gauri Mehra">
                 <motion.span
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]"
@@ -415,7 +416,7 @@ const ServicesSection = () => {
               <motion.p className="text-gray-600 mb-4">
                 Programs focused on sustainable weight loss or maintenance through balanced eating and appropriate physical activity.
               </motion.p>
-              <Link href="/services/weight-management">
+              <Link href="/services/weight-management" aria-label="Learn more about Weight Management programs by Dt. Gauri Mehra">
                 <motion.span
                   whileHover={{ x: 5 }}
                   className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]"
