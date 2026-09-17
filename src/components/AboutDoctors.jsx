@@ -164,7 +164,7 @@ const DoctorsSection = () => {
                   transition={{ duration: 0.3 }}
                 >
                   <img
-                    src="/images/dr-manish.jpg"
+                    src="/images/dr-manish1.jpg"
                     alt="Dr. Manish Sharma"
                     className="w-full h-full object-cover object-center"
                   />
@@ -307,7 +307,7 @@ const DoctorsSection = () => {
                   transition={{ duration: 0.3 }}
                 >
                   <img
-                    src="/images/dr-gauri.jpg"
+                    src="/images/dr-gauri1.jpg"
                     alt="Dt. Gauri Mehra"
                     className="w-full h-full object-cover object-center"
                   />
