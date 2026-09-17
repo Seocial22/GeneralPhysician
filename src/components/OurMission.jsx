@@ -111,7 +111,7 @@ export default function OurMission() {
           >
             <div className="relative w-full aspect-[4/3] max-w-lg mx-auto">
               <Image 
-                src="/images/our-mission.webp" 
+                src="/images/our-mission.jpg" 
                 alt="Health and wellness at Gaurnish Health" 
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
